@@ -114,6 +114,9 @@ plt.imshow(img_28_gray_scaled.reshape(28,28),cmap='gray')
 ### Training Loss and Validation Loss:
 ![image](https://github.com/poojaanbu0/NN-Project-Based-Experiment/assets/119390329/077d969a-0056-4abe-8ab1-bb5d4b1ec9a7)
 
+![image](https://github.com/poojaanbu0/NN-Project-Based-Experiment/assets/119390329/ecefd963-57ef-4bae-a953-4f30d1e08ff5)
+
+
 ### Classification Report 
 ![image](https://github.com/poojaanbu0/NN-Project-Based-Experiment/assets/119390329/07ae65ca-7c43-4b6a-b991-9509dd197ba7)
 
