@@ -95,9 +95,9 @@ x_test_predictions = np.argmax(model.predict(X_test_scaled), axis=1)
 print(confusion_matrix(y_test,x_test_predictions))
 print(classification_report(y_test,x_test_predictions))
 
-img = image.load_img('img6n.png')
+img = image.load_img('img.png')
 type(img)
-img = image.load_img('img6n.png')
+img = image.load_img('img.png')
 img_tensor = tf.convert_to_tensor(np.asarray(img))
 img_28 = tf.image.resize(img_tensor,(28,28))
 img_28_gray = tf.image.rgb_to_grayscale(img_28)
@@ -119,9 +119,12 @@ plt.imshow(img_28_gray_scaled.reshape(28,28),cmap='gray')
 
 
 ### Confusion Matrix 
+![image](https://github.com/poojaanbu0/NN-Project-Based-Experiment/assets/119390329/c8107880-1a60-41f8-948c-b3f2bf7a62b1)
 
 
 ### New Sample Data Prediction 
 
+![image](https://github.com/poojaanbu0/NN-Project-Based-Experiment/assets/119390329/9e42456b-1b63-4dbe-ab1a-7e56dabbb9b8)
 
+![image](https://github.com/poojaanbu0/NN-Project-Based-Experiment/assets/119390329/84bf6e1f-0cea-42d2-b8ce-26ae290dd8ea)
 
